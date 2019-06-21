@@ -28,19 +28,26 @@
      
      - returns: 转换后的颜色
      */
-    class func ColorHex(_ hex: String) -> UIColor {
+     
+   class func ColorHex(_ hex: String) -> UIColor {
         return proceesHex(hex, alpha: 1.0)
     }
+    
 // MARK: - 主要逻辑
-private func proceesHex(_ hex: String, alpha: CGFloat) -> UIColor{
+
+ private func proceesHex(_ hex: String, alpha: CGFloat) -> UIColor{
+ 
     /** 如果传入的字符串为空 */
     if hex.isEmpty {
         return UIColor.clear
     }
+    
     /** 传进来的值。 去掉了可能包含的空格、特殊字符， 并且全部转换为大写 */
+    
     let set = CharacterSet.whitespaces
     //var hHex = hex.stringByTrimmingCharactersInSet(set).uppercased()
     var hHex = hex.trimmingCharacters(in: set).uppercased()
+    
     /** 如果处理过后的字符串少于6位 */
     if hHex.count < 6 {
         return UIColor.clear
