@@ -27,14 +27,11 @@
   - parameter hex: 16进制颜色字符串
   - returns: 转换后的颜色
   */
-     
+
     class func ColorHex(_ hex: String) -> UIColor {
         return proceesHex(hex, alpha: 1.0)
      }
-     
-    
-// MARK: - 主要逻辑
-
+     // MARK: - 主要逻辑
     private func proceesHex(_ hex: String, alpha: CGFloat) -> UIColor{
  
         /** 如果传入的字符串为空 */
