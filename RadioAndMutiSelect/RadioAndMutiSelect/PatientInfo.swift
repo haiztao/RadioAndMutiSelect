@@ -28,7 +28,7 @@ class PatientInfo: NSObject {
     var buildNo:String?
     var headNurse:String?
     var levelName:String? = "一级护理"
-    var askForFoodType:String? = "1"
+    var askForFoodType:String? = "0"
     var cautionType:String? = "0-1-2-3"
     
     

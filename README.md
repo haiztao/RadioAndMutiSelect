@@ -1,6 +1,8 @@
 # RadioAndMutiSelect
 单选和多选功能（swift）
 
+![](12.png)
+
 # CBGroupAndStreamView
  //分组标志  默认"YouNoSet"
  public var groundTitle:String = "YouNoSet"

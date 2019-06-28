@@ -45,10 +45,10 @@
 		63B0C26B22B722C0002B1A24 /* RadioAndMutiSelectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioAndMutiSelectTests.swift; sourceTree = "<group>"; };
 		63B0C26D22B722C0002B1A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B0C27622B7249D002B1A24 /* EditBedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBedViewController.swift; sourceTree = "<group>"; };
-		63B0C27822B724C6002B1A24 /* CBGroupAndStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBGroupAndStreamView.swift; sourceTree = "<group>"; };
-		63B0C27A22B7254D002B1A24 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		63B0C27822B724C6002B1A24 /* CBGroupAndStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CBGroupAndStreamView.swift; path = ../CBGroupAndStreamView.swift; sourceTree = "<group>"; };
+		63B0C27A22B7254D002B1A24 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Macros.swift; path = ../Macros.swift; sourceTree = "<group>"; };
 		63B0C27C22B7296F002B1A24 /* PatientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInfo.swift; sourceTree = "<group>"; };
-		63B0C27E22B72D9E002B1A24 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		63B0C27E22B72D9E002B1A24 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../Category.swift; sourceTree = "<group>"; };
 		63B0C28022B734BA002B1A24 /* blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@3x.png"; sourceTree = "<group>"; };
 		63B0C28122B734BA002B1A24 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		63B0C28222B734BB002B1A24 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
@@ -96,10 +96,8 @@
 				63B0C25622B722B9002B1A24 /* AppDelegate.swift */,
 				63B0C25822B722B9002B1A24 /* ViewController.swift */,
 				63B0C27622B7249D002B1A24 /* EditBedViewController.swift */,
-				63B0C27822B724C6002B1A24 /* CBGroupAndStreamView.swift */,
-				63B0C27A22B7254D002B1A24 /* Macros.swift */,
 				63B0C27C22B7296F002B1A24 /* PatientInfo.swift */,
-				63B0C27E22B72D9E002B1A24 /* Category.swift */,
+				63EA865622C5EE7000FC9CD7 /* CBGroupAndStreamView */,
 				63B0C25A22B722B9002B1A24 /* Main.storyboard */,
 				63B0C28122B734BA002B1A24 /* blue.png */,
 				63B0C28222B734BB002B1A24 /* blue@2x.png */,
@@ -118,6 +116,16 @@
 				63B0C26D22B722C0002B1A24 /* Info.plist */,
 			);
 			path = RadioAndMutiSelectTests;
+			sourceTree = "<group>";
+		};
+		63EA865622C5EE7000FC9CD7 /* CBGroupAndStreamView */ = {
+			isa = PBXGroup;
+			children = (
+				63B0C27822B724C6002B1A24 /* CBGroupAndStreamView.swift */,
+				63B0C27A22B7254D002B1A24 /* Macros.swift */,
+				63B0C27E22B72D9E002B1A24 /* Category.swift */,
+			);
+			path = CBGroupAndStreamView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
