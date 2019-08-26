@@ -21,6 +21,9 @@
 		63B0C28322B734BB002B1A24 /* blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B0C28022B734BA002B1A24 /* blue@3x.png */; };
 		63B0C28422B734BB002B1A24 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B0C28122B734BA002B1A24 /* blue.png */; };
 		63B0C28522B734BB002B1A24 /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B0C28222B734BB002B1A24 /* blue@2x.png */; };
+		63D245D02313D91600751D34 /* LWCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D245CF2313D91500751D34 /* LWCalendarView.swift */; };
+		63D245D32313D95300751D34 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D245D22313D95300751D34 /* CalendarViewController.swift */; };
+		63D245D52313DA0A00751D34 /* LWDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D245D42313DA0A00751D34 /* LWDateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		63B0C28022B734BA002B1A24 /* blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@3x.png"; sourceTree = "<group>"; };
 		63B0C28122B734BA002B1A24 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		63B0C28222B734BB002B1A24 /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
+		63D245CF2313D91500751D34 /* LWCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWCalendarView.swift; sourceTree = "<group>"; };
+		63D245D22313D95300751D34 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		63D245D42313DA0A00751D34 /* LWDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWDateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 				63B0C25822B722B9002B1A24 /* ViewController.swift */,
 				63B0C27622B7249D002B1A24 /* EditBedViewController.swift */,
 				63B0C27C22B7296F002B1A24 /* PatientInfo.swift */,
+				63D245D22313D95300751D34 /* CalendarViewController.swift */,
+				63D245D12313D91F00751D34 /* Calendaer */,
 				63EA865622C5EE7000FC9CD7 /* CBGroupAndStreamView */,
 				63B0C25A22B722B9002B1A24 /* Main.storyboard */,
 				63B0C28122B734BA002B1A24 /* blue.png */,
@@ -116,6 +124,15 @@
 				63B0C26D22B722C0002B1A24 /* Info.plist */,
 			);
 			path = RadioAndMutiSelectTests;
+			sourceTree = "<group>";
+		};
+		63D245D12313D91F00751D34 /* Calendaer */ = {
+			isa = PBXGroup;
+			children = (
+				63D245D42313DA0A00751D34 /* LWDateManager.swift */,
+				63D245CF2313D91500751D34 /* LWCalendarView.swift */,
+			);
+			path = Calendaer;
 			sourceTree = "<group>";
 		};
 		63EA865622C5EE7000FC9CD7 /* CBGroupAndStreamView */ = {
@@ -238,7 +255,10 @@
 				63B0C25922B722B9002B1A24 /* ViewController.swift in Sources */,
 				63B0C25722B722B9002B1A24 /* AppDelegate.swift in Sources */,
 				63B0C27D22B7296F002B1A24 /* PatientInfo.swift in Sources */,
+				63D245D32313D95300751D34 /* CalendarViewController.swift in Sources */,
 				63B0C27F22B72D9E002B1A24 /* Category.swift in Sources */,
+				63D245D52313DA0A00751D34 /* LWDateManager.swift in Sources */,
+				63D245D02313D91600751D34 /* LWCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

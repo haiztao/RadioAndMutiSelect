@@ -51,7 +51,7 @@ class EditBedViewController: UIViewController,UITextFieldDelegate,CBGroupAndStre
     override func viewDidLoad() {
         super.viewDidLoad()
         viewWidthCons.constant = kScreenWidth
-        
+        self.title = "单选多选"
         nurseDegreeSigle()
         foodRequest()
         highWarming()
